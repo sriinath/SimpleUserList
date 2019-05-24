@@ -2,6 +2,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry: "./src/index.tsx",
+    devServer: {
+        historyApiFallback: true
+    },
     output: {
         filename: "bundle.js",
         path: __dirname + "/dist"

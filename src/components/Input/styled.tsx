@@ -13,6 +13,7 @@ const Input = styled.input`
         background-color: #27ae60;
         border-radius: 40px;
         color: #fff;
+        cursor: pointer;
         margin-top: 40px;
         &:hover {
             background-color: #fff;

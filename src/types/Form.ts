@@ -1,7 +1,6 @@
-import * as React from 'react'
-
 interface FormProps {
-    onSubmit?: (e: React.FormEvent) => void
+    onSubmit?: (userName: string, password: string) => string
+    ref?: any
 }
 
-export { FormProps } 
+export { FormProps }
